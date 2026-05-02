@@ -2,7 +2,7 @@
 
 Vertex::Vertex(){
     this->index = -1;
-    this->degree = -1;
+    this->degree = 0;
 }
 
 int Vertex::getIndex(){

@@ -25,11 +25,14 @@ class Graph {
         // core methods:
         void addEdge(int v1, int v2, int weight);
         void checkOdd();
+        void runDijkstra();
+        void dijkstra(int index);
         
         // helper methods:
         void setAdjMatrix(int row, int col, int weight);
         void printAdjMatrix();
         void printOdd();
+        void printDijkstras(int num[]);
         
 };              
 
